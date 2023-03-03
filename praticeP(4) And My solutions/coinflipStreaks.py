@@ -23,6 +23,5 @@ def coinFlip():
                 
     print(f'The number of Head Streak: {numberOfHeadStreaks} ')
     print(f'The number of Tail Streak: {numberOfTailStreaks} ')
-    
 
 coinFlip()
