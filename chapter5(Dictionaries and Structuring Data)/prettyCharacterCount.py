@@ -1,9 +1,10 @@
 import pprint
 
-messsage = 'It is going to be great today Jesus christ is already here, well I am going to use this method to build one of the greatest companies this world can ever dream of, it will only be to the srvice of God purposes on earth with $5 trillion of Dollars in Value'
-
 count = {}
-for character in messsage:
-    count.setdefault(character, 0)
-    count[character] += 1
+message = 'A wise old fool thought he had all it took to become very arrogant and saucy well, he forgot we had a God and Jehovah is His name, can you guess that old fool?'
+
+for i in message :
+    count.setdefault(i,0)
+    count[i] += 1
 pprint.pprint(count)
+
