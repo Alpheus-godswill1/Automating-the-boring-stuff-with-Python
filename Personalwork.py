@@ -6,17 +6,17 @@ sumNumb = Numb1 + Numb2
 
 subtractedNumb = Numb1 - Numb2
 if subtractedNumb < 49:
-    subtValue = valueNumb - subtractedNumb
-    print(subtValue)
+                subtValue = valueNumb - subtractedNumb
+                print(subtValue)
 
-    
+
 
 if sumNumb  < 49:
-    print(49 - (sumNumb))
-    NumbUsed =  49 - sumNumb 
+                print(49 - (sumNumb))
+                NumbUsed =  49 - sumNumb 
 elif sumNumb  > 49:
-    print((sumNumb) - 49)
-    NumbUsed = sumNumb - 49
+        print((sumNumb) - 49)
+        NumbUsed = sumNumb - 49
 
 if  NumbUsed >= 0  and NumbUsed <= 4 :
         print(f'AddedValue: {NumbUsed + 5 }')
