@@ -17,3 +17,20 @@ for y in range(len(grid[0])):
 spam = {'cat': 45}
 for cat in spam:
     print(cat)
+    
+    
+    
+
+
+
+
+allGuest = {'Alice':1,'Bob' : 5,'Greg' : 3,}   
+def totalBrought(val):
+    SumBrought = 0
+    for v  in val.values():
+        SumBrought += v.get(val, 0)
+    return SumBrought
+
+print('Number of things being brought are: ')
+print(totalBrought(allGuest))
+
